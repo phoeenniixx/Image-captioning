@@ -16,7 +16,7 @@ Dataset and its structure
 3. For example, in Flick8k, Flickr_8k.trainImages.txt file contains file_ids of images in training set. Name of image file is its image id.
 4. All the images are in same folder. So to parse images of training dataset, first read trianImages.txt file, read line by line image id and load corresponding image from image dataset folder.
 5. Each image is given 5 different captions by 5 different humans. This is because an image can be described in multiple ways.
-
+(I used Flickr8Kfor the training and testing of this model but we can use any of the above four datasets)
 
 Model
 
