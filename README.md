@@ -20,24 +20,27 @@ Dataset and its structure
 
 One measure that can be used to evaluate the skill of the model are BLEU scores. For reference, below are some ball-park BLEU scores for skillful models when evaluated on the test dataset (taken from the 2017 paper “Where to put the Image in an Image Caption Generator“ [https://arxiv.org/abs/1703.09137]):
 
-BLEU-1: 0.401 to 0.578. BLEU-2: 0.176 to 0.390. BLEU-3: 0.099 to 0.260. BLEU-4: 0.059 to 0.170.
+    BLEU-1: 0.401 to 0.578. 
+    BLEU-2: 0.176 to 0.390. 
+    BLEU-3: 0.099 to 0.260. 
+    BLEU-4: 0.059 to 0.170.
 
 Model
 
 Objective: Image captioning, generating textual descriptions for images.
 Preprocessing:
-  Image features extracted using VGG16.
-  Text tokenized and embedded (size 40).
+      Image features extracted using VGG16.
+      Text tokenized and embedded (size 40).
 Model Architecture:
-  Combines CNN (VGG16) and LSTM for image and text processing.
-  Includes dropout layers for regularization.
-  Output is a probability distribution over the vocabulary for generating captions.
+      Combines CNN (VGG16) and LSTM for image and text processing.
+      Includes dropout layers for regularization.
+      Output is a probability distribution over the vocabulary for generating captions.
 Training:
-  Number of epochs: 5.
+      Number of epochs: 5.
 BLEU Scores:
-  BLEU-1: 0.4851
-  BLEU-2: 0.3028
-  BLEU-3: 0.2084
-  BLEU-4: 0.1013
+      BLEU-1: 0.4851
+      BLEU-2: 0.3028
+      BLEU-3: 0.2084
+      BLEU-4: 0.1013
 
 ![model](https://github.com/tonystark2032/ML-Codes/assets/116151399/5ef93135-dc55-4ec5-bfbe-2709302fffff)
