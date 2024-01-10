@@ -39,9 +39,9 @@ Training:
       Number of epochs: 5.
 BLEU Scores:
 
-          BLEU-1: 0.4851
-          BLEU-2: 0.3028
-          BLEU-3: 0.2084
-          BLEU-4: 0.1013
+    BLEU-1: 0.4851
+    BLEU-2: 0.3028
+    BLEU-3: 0.2084
+    BLEU-4: 0.1013
 
 ![model](https://github.com/tonystark2032/ML-Codes/assets/116151399/5ef93135-dc55-4ec5-bfbe-2709302fffff)
